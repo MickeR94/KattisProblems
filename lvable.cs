@@ -13,7 +13,7 @@ namespace lvable {
         private static int Characters(int n, string s){
             bool hasL = false;
             bool hasV = false;
-            for (int i = 0; i < n - 1; i++){
+            for (int i = 0; i < n; i++){
                 if(i + 1 < n && s[i] == 'l' && s[i+1] == 'v'){
                     return 0;
                 } else if (s[i] == 'l'){
